@@ -1,0 +1,22 @@
+
+const eg = [1,2,3,4,5,6,7];
+// eg.pop()
+// eg.push(8)
+// eg.shift()
+// eg.unshift(0)
+// eg.reverse()
+// eg.splice(1) // removes all the elements from the index no. 1 upto last
+// eg.splice(1,2) // first arg : from where to remove 
+//                 // second arg : upto which index no. the nos have to be removed
+// eg.splice(1,2,45) // first arg : from where to remove 
+//                 // second arg : upto which index no. the nos have to be removed
+//                 // third arg: the item in the third arg is added in place of the element that has been removed
+
+// console.log(eg.slice(1,3)) // this method doesn't change the original array
+//                          // slice method returns the part of the array 
+//                          // first args : from ...... Second args: upto which
+
+// console.log(eg.join(" ")) // joins the array as whole string on the basis of delimeter
+
+ console.log(eg.toString())
+console.log(eg)
